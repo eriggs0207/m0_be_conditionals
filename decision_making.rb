@@ -3,9 +3,9 @@
 # Spend some time changing the variables and running the file to see how the story changes.
 
 
-door_choice = 1
+door_choice = 2
 bear_clothing = ""
-bear_choice = 1
+bear_choice = 4
 
 puts "You enter a dark room with two doors. Do you go through #1 or #2?"
 
@@ -35,9 +35,19 @@ end
 
 # Questions
 # 1. In English, using technical vocabulary, describe what is happening between lines 12 and 16.
+# It is using an if statement saying that if the variable door_choice is equal to the integer 1 then the variable bear_clothing will be "hat" if the door_choice is anything else than the variable bear_clothing will equal "scarf"
 # 2. What variable has a new value assigned to it after the first if statement executes?
+# bear_clothing
 # 3. If you changed the variable door_choice to equal 3, what would the bear_clothing value be?
+# "scarf"
 # 4. In English, using technical vocabulary, describe what is happening between lines lines 25 and 33.
+# Using and if statement saying that if variable bear_choice 1 then the outcome is   "You offer the bear your " + bear_clothing + " and the bear shows you a secret passage out!" using a string interpolation for bear_clothing
+# If the bear_choice variable equals 2 then the outcome is   "You tell the bear the " + bear_clothing + " is too small and it starts to cry!" using a string interpolation for bear_clothing
+# If the bear_choice variable equals 3 then the outcome is   "You run as fast as you can into the next room. It's full of snakes!"
+# If the bear_choice is equals any other number using the else the outcome is "You stay with bear and become best friends"
 # 5. If you changed the variable bear_choice to equal 3, what will be the final outcome be?
+# "You run as fast as you can into the next room. It's full of snakes!"
 # 6. If you changed the variable door_choice to equal 1, and the variable bear_choice to equal 2, what will be the final outcome be?
+# "You tell the bear the hat is too small and it starts to cry!"
 # 7. What is your favorite ending?
+# Any of them but the snakes! I will hang out with bears all day instead of being anywhere near snakes

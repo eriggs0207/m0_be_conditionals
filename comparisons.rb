@@ -23,23 +23,30 @@ puts "Is number_teachers greater than number_students?", number_teachers > numbe
 
 # YOU DO: print the result of the comparison: is number_teachers less than number_students?
 # this should print: true
+puts "Is number_teachers less than number_students?", number_teachers < number_students
 
 # YOU DO: print the result of the comparison: is number_teachers equal to string_teachers?
+puts "Is the number_teachers equal to string_teachers?", number_teachers == string_teachers
 # this should print: false
 
 # YOU DO: print the result of the comparison: is number_teachers not equal to number_students?
+puts "Is the number_teachers not equal to the number_students?", number_teachers != number_students
 # this should print: true
 
 # YOU DO: print the result of the comparison: is number_students greater than or equal to 20?
+puts "Is number_students greater than or equal to 20?", number_students >= 20
 # this should print: true
 
 # YOU DO: print the result of the comparison: is number_students greater than or equal to 21?
+puts "Is number_students greater than or equal to 21?", number_students >= 21
 # this should print: false
 
 # YOU DO: print the result of the comparison: is number_students less than or equal to 20?
+puts "Is number_students less than or equal to 20?", number_students <= 20
 # this should print: true
 
 # YOU DO: print the result of the comparison: is number_students less than or equal to 21?
+puts "Is the number_students less than or equal to 21?", number_students <= 21
 # this should print: true
 
 
@@ -53,21 +60,21 @@ puts "Is number_teachers greater than number_students?", number_teachers > numbe
 # Make sure YOU can explain it that way!
 
 puts 4 < 9
-#YOU DO: Explain.
+#The code is running a comparison between 2 integers.  It will print out true because the comparison is correct. puts will make it print out the result of the comparison
 
 books = 3
 puts 4 < books
-# YOU DO: Explain.
+#The first line is establishing that the integer assigned to variable of books is 3.  The second line is a comparison saying that the 4 is less than the variable books. It is so it will print false
 
 friends = 6
 siblings = 2
 puts friends > siblings
-# YOU DO: Explain.
+# the variable friends is assigned the integer 6 and siblings is assigned the integer 2.  The comparison is that friends is greater than siblings which will print true
 
 attendees = 9
 meals = 8
 puts attendees != meals
-# YOU DO: Explain.
+#the variable attendees is assigned the integer 9 and meals is assigned the integer 8. The comparison is that attendees and meals are not equal.  This will print true
 
 
 #-------------------
@@ -90,15 +97,18 @@ age = 1
 
 # YOU DO:
 # Determine if the dog loves to play and loves treats
+loves_to_play && loves_treats
 
 
 # Determine if the dog loves to play and loves the dog park
-
+loves_to_play && loves_dog_park
 
 # Determine if the dog loves to play or loves the dog park
-
+loves_to_play || loves_dog_park
 
 # Determine if the dog loves to play and is a puppy
-
+loves_to_play && age > 1
 # What did your final line of code evaluate to? Why do you think that is? Explain.
-# ANSWER:
+# It has the part 1 with the full questions and answers, puts was used to both display the question as well as display the answer.
+# In part 2 only the answers are displayed, because puts is used.
+# In part 3 nothing is displayed, becuase puts is not used at all.
